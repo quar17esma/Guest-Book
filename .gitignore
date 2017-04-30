@@ -1,5 +1,7 @@
-.idea
-.gitignore
-Guest-Book.iml
 target
-out
+tomcat.8080
+tomcat.5000
+
+# IntelliJ Idea project files
+.idea
+*.iml
