@@ -42,9 +42,10 @@
             <version>${tomcat.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
-         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
+
+        <dependency>
+            <groupId>javax.servlet.jsp.jstl</groupId>
+            <artifactId>jstl-api</artifactId>
             <version>1.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/taglibs/standard -->
