@@ -48,7 +48,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>embeddedTomcatSample</finalName>
+        <finalName>Guest-Book App</finalName>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
