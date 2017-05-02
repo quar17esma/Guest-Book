@@ -15,7 +15,6 @@ public class GuestDAOImpl implements GuestDAO {
         conn = DBUtil.getConnection();
     }
 
-    @Override
     public void addGuest(Guest guest) {
         try {
             String query = "insert into guest_book (name, surname, birthday_date, phone_number, email, country, city)" +
@@ -38,7 +37,6 @@ public class GuestDAOImpl implements GuestDAO {
         }
     }
 
-    @Override
     public List<Guest> getAllGuests() {
         List<Guest> guests = new ArrayList<Guest>();
         try {
