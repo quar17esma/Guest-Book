@@ -55,7 +55,7 @@
 
 </table>
 
-<form action="/addGuest.jsp">
+<form action="${pageContext.request.contextPath}/addGuest.jsp">
     <br>
     <button type="submit">Повернутись</button>
 </form>
