@@ -59,11 +59,11 @@ public class Main {
         ctx.setParentClassLoader(Main.class.getClassLoader());
 
         //Disable TLD scanning by default
-        if (System.getProperty(Constants.SKIP_JARS_PROPERTY) == null && System.getProperty(Constants.SKIP_JARS_PROPERTY) == null) {
-            System.out.println("disabling TLD scanning");
-            StandardJarScanFilter jarScanFilter = (StandardJarScanFilter) ctx.getJarScanner().getJarScanFilter();
-            jarScanFilter.setTldSkip("*");
-        }
+//        if (System.getProperty(Constants.SKIP_JARS_PROPERTY) == null && System.getProperty(Constants.SKIP_JARS_PROPERTY) == null) {
+//            System.out.println("disabling TLD scanning");
+//            StandardJarScanFilter jarScanFilter = (StandardJarScanFilter) ctx.getJarScanner().getJarScanFilter();
+//            jarScanFilter.setTldSkip("*");
+//        }
 
         System.out.println("configuring app with basedir: " + webContentFolder.getAbsolutePath());
 
