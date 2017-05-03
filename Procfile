@@ -1,1 +1,1 @@
-web: sh target/bin/webapp
+C:/> target/bin/webapp.bat
