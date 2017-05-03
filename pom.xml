@@ -28,6 +28,8 @@
             <scope>runtime</scope>
         </dependency>
 
+
+        <!--
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
@@ -57,7 +59,7 @@
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jsp-api</artifactId>
             <version>${tomcat.version}</version>
-        </dependency>
+        </dependency>  -->
 
         <dependency>
             <groupId>javax.servlet</groupId>
